@@ -1,0 +1,30 @@
+.todos{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  
+}
+
+.input button{
+    background-color: white;
+    border: none;
+    margin-left: 20px;
+    border-radius: 15px;  
+    font-size: xx-large;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.todos input{
+    font-size: xx-large;
+    padding: 13px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+}
