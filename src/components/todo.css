@@ -4,6 +4,9 @@
     justify-content: center;
   
 }
+.line{
+    text-decoration: line-through;
+}
 
 .input button{
     background-color: white;
@@ -27,4 +30,16 @@
 .todo{
     display: flex;
     flex-direction: column;
+}
+.comptodo{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 400px;
+    border-radius: 15px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
 }

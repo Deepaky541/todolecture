@@ -1,5 +1,7 @@
 .line{
     text-decoration: line-through;
+    display: none;
+  
 }
 .todo{
     display: flex;
